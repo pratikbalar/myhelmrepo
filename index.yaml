@@ -3,7 +3,7 @@ entries:
   asciinema-server:
   - apiVersion: v1
     appVersion: v1.0.1
-    created: "2020-10-05T14:50:21.526569135+05:30"
+    created: "2020-10-05T15:30:50.047581269+05:30"
     description: A terminal sharing tool for developers
     digest: c275561cbc0dbac21ed994e9248933f02bb6c74aeba33f4a2f4835b9056af183
     maintainers:
@@ -15,4 +15,28 @@ entries:
     urls:
     - https://pratikbalar.github.io/myhelmrepo/asciinema-server-0.1.0.tgz
     version: 0.1.0
-generated: "2020-10-05T14:50:21.518967894+05:30"
+  mailhog:
+  - apiVersion: v1
+    appVersion: v1.0.1
+    created: "2020-10-05T15:30:50.048523426+05:30"
+    description: An e-mail testing tool for developers
+    digest: 0345482d4c0eea5d5920ff435d8225cdcb651f6f91d0d495110795904ba51570
+    home: http://iankent.uk/project/mailhog/
+    icon: https://raw.githubusercontent.com/mailhog/MailHog-UI/master/assets/images/hog.png
+    keywords:
+    - mailhog
+    - mail
+    - smtp
+    - email
+    - e-mail
+    - testing
+    maintainers:
+    - email: pratik@improeised.com
+      name: praitk
+    name: mailhog
+    sources:
+    - https://github.com/mailhog/MailHog
+    urls:
+    - https://pratikbalar.github.io/myhelmrepo/mailhog-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-10-05T15:30:50.038487326+05:30"
