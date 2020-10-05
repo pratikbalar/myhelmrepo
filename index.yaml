@@ -3,9 +3,9 @@ entries:
   asciinema-server:
   - apiVersion: v1
     appVersion: v1.0.1
-    created: "2020-10-05T18:56:22.139590342+05:30"
+    created: "2020-10-05T19:13:49.374206258+05:30"
     description: A terminal sharing tool for developers
-    digest: 73d934e9863c40c2af997a224ee13ea3de04a5ca5630c459c4669c37653b6053
+    digest: 1a1f34f91b2cd27f3505efcc07a956ba4a4ced1c9ac0459a26bb1a988ba8ab6d
     maintainers:
     - email: pratik@improeised.com
       name: praitk
@@ -13,12 +13,12 @@ entries:
     sources:
     - https://github.com/asciinema/asciinema-server
     urls:
-    - https://pratikbalar.github.io/myhelmrepo/asciinema-server-0.1.0.tgz
-    version: 0.1.0
+    - https://pratikbalar.github.io/myhelmrepo/asciinema-server-0.1.2.tgz
+    version: 0.1.2
   mailhog:
   - apiVersion: v1
     appVersion: v1.0.1
-    created: "2020-10-05T18:56:22.148540418+05:30"
+    created: "2020-10-05T19:13:49.37473741+05:30"
     description: An e-mail testing tool for developers
     digest: 0345482d4c0eea5d5920ff435d8225cdcb651f6f91d0d495110795904ba51570
     home: http://iankent.uk/project/mailhog/
@@ -39,4 +39,4 @@ entries:
     urls:
     - https://pratikbalar.github.io/myhelmrepo/mailhog-0.1.0.tgz
     version: 0.1.0
-generated: "2020-10-05T18:56:22.13036023+05:30"
+generated: "2020-10-05T19:13:49.347563865+05:30"
