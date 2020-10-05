@@ -1,0 +1,18 @@
+apiVersion: v1
+entries:
+  asciinema-server:
+  - apiVersion: v1
+    appVersion: v1.0.1
+    created: "2020-10-05T14:24:56.424194946+05:30"
+    description: A terminal sharing tool for developers
+    digest: ea10560fb6ca68803c9f3de7dd88300eeb49da8c2d8075625bab36828b53047d
+    maintainers:
+    - email: pratik@improeised.com
+      name: praitk
+    name: asciinema-server
+    sources:
+    - https://github.com/asciinema/asciinema-server
+    urls:
+    - https://pratikbalar.github.io/myhelmrepo/asciinema-server-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-10-05T14:24:56.413994675+05:30"
