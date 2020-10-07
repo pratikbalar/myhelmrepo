@@ -3,7 +3,7 @@ entries:
   asciinema-server:
   - apiVersion: v1
     appVersion: v1.0.1
-    created: "2020-10-05T20:33:55.899741446+05:30"
+    created: "2020-10-07T14:55:11.93773307+05:30"
     description: A terminal sharing tool for developers
     digest: d9acad91048adda73810f334bc9eb5c71c7df8ccb18cb7253a39461dd0aa651b
     maintainers:
@@ -15,10 +15,31 @@ entries:
     urls:
     - https://pratikbalar.github.io/myhelmrepo/asciinema-server-0.1.6.tgz
     version: 0.1.6
+  healthchecks:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-10-07T14:55:11.941253635+05:30"
+    dependencies:
+    - condition: postgresql.enabled,global.postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 9.1.1
+    description: A Helm chart for Kubernetes
+    digest: 29edd22d63bd9a889f43d08f3920745c525ba65f16217acb2da9ee7ff1ff04d2
+    maintainers:
+    - email: pratik@improeised.com
+      name: praitk
+    name: healthchecks
+    sources:
+    - https://github.com/healthchecks/healthchecks
+    type: application
+    urls:
+    - https://pratikbalar.github.io/myhelmrepo/healthchecks-0.1.0.tgz
+    version: 0.1.0
   mailhog:
   - apiVersion: v1
     appVersion: v1.0.1
-    created: "2020-10-05T20:33:55.900359649+05:30"
+    created: "2020-10-07T14:55:11.941797945+05:30"
     description: An e-mail testing tool for developers
     digest: 0345482d4c0eea5d5920ff435d8225cdcb651f6f91d0d495110795904ba51570
     home: http://iankent.uk/project/mailhog/
@@ -39,4 +60,4 @@ entries:
     urls:
     - https://pratikbalar.github.io/myhelmrepo/mailhog-0.1.0.tgz
     version: 0.1.0
-generated: "2020-10-05T20:33:55.875726508+05:30"
+generated: "2020-10-07T14:55:11.929211201+05:30"
