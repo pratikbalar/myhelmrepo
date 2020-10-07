@@ -3,7 +3,7 @@ entries:
   asciinema-server:
   - apiVersion: v1
     appVersion: v1.0.1
-    created: "2020-10-07T16:21:21.00342483+05:30"
+    created: "2020-10-07T16:29:25.173561761+05:30"
     description: A terminal sharing tool for developers
     digest: d9acad91048adda73810f334bc9eb5c71c7df8ccb18cb7253a39461dd0aa651b
     maintainers:
@@ -18,7 +18,7 @@ entries:
   healthchecks:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-10-07T16:21:21.007154857+05:30"
+    created: "2020-10-07T16:29:25.177041627+05:30"
     dependencies:
     - condition: postgresql.enabled,global.postgresql.enabled
       name: postgresql
@@ -39,7 +39,30 @@ entries:
   mailhog:
   - apiVersion: v1
     appVersion: v1.0.1
-    created: "2020-10-07T16:21:21.008709989+05:30"
+    created: "2020-10-07T16:29:25.178953951+05:30"
+    description: An e-mail testing tool for developers
+    digest: e7b40596f0887febc4be1ba8fce0372d9497353f17994a7295aac34ee090d778
+    home: http://iankent.uk/project/mailhog/
+    icon: https://raw.githubusercontent.com/mailhog/MailHog-UI/master/assets/images/hog.png
+    keywords:
+    - mailhog
+    - mail
+    - smtp
+    - email
+    - e-mail
+    - testing
+    maintainers:
+    - email: pratik@improeised.com
+      name: praitk
+    name: mailhog
+    sources:
+    - https://github.com/mailhog/MailHog
+    urls:
+    - https://pratikbalar.github.io/myhelmrepo/mailhog-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v1
+    appVersion: v1.0.1
+    created: "2020-10-07T16:29:25.178186901+05:30"
     description: An e-mail testing tool for developers
     digest: 5c800571339882c4e5b8caef78980fa273c9e25a699a5dfd4d143138ced9f90e
     home: http://iankent.uk/project/mailhog/
@@ -62,7 +85,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: v1.0.1
-    created: "2020-10-07T16:21:21.008025437+05:30"
+    created: "2020-10-07T16:29:25.177603406+05:30"
     description: An e-mail testing tool for developers
     digest: 0345482d4c0eea5d5920ff435d8225cdcb651f6f91d0d495110795904ba51570
     home: http://iankent.uk/project/mailhog/
@@ -83,4 +106,4 @@ entries:
     urls:
     - https://pratikbalar.github.io/myhelmrepo/mailhog-0.1.0.tgz
     version: 0.1.0
-generated: "2020-10-07T16:21:20.995032786+05:30"
+generated: "2020-10-07T16:29:25.165095444+05:30"
