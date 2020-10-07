@@ -3,7 +3,7 @@ entries:
   asciinema-server:
   - apiVersion: v1
     appVersion: v1.0.1
-    created: "2020-10-07T17:10:04.726298247+05:30"
+    created: "2020-10-07T19:26:10.142524391+05:30"
     description: A terminal sharing tool for developers
     digest: d9acad91048adda73810f334bc9eb5c71c7df8ccb18cb7253a39461dd0aa651b
     maintainers:
@@ -18,7 +18,7 @@ entries:
   healthchecks:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-10-07T17:10:04.735196484+05:30"
+    created: "2020-10-07T19:26:10.150236098+05:30"
     dependencies:
     - condition: postgresql.enabled,global.postgresql.enabled
       name: postgresql
@@ -38,7 +38,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-10-07T17:10:04.731124318+05:30"
+    created: "2020-10-07T19:26:10.146740979+05:30"
     dependencies:
     - condition: postgresql.enabled,global.postgresql.enabled
       name: postgresql
@@ -59,9 +59,9 @@ entries:
   mailhog:
   - apiVersion: v1
     appVersion: v1.0.1
-    created: "2020-10-07T17:10:04.737176702+05:30"
+    created: "2020-10-07T19:26:10.150813747+05:30"
     description: An e-mail testing tool for developers
-    digest: e7b40596f0887febc4be1ba8fce0372d9497353f17994a7295aac34ee090d778
+    digest: 94460f7d6b7482494024ceb5303b917035afbc2e86694e0a250bd62fef75179f
     home: http://iankent.uk/project/mailhog/
     icon: https://raw.githubusercontent.com/mailhog/MailHog-UI/master/assets/images/hog.png
     keywords:
@@ -72,58 +72,13 @@ entries:
     - e-mail
     - testing
     maintainers:
-    - email: pratik@improeised.com
-      name: praitk
+    - email: pratik@improwised.com
+      name: pratik
     name: mailhog
     sources:
     - https://github.com/mailhog/MailHog
-    urls:
-    - https://pratikbalar.github.io/myhelmrepo/mailhog-0.1.2.tgz
-    version: 0.1.2
-  - apiVersion: v1
-    appVersion: v1.0.1
-    created: "2020-10-07T17:10:04.736499692+05:30"
-    description: An e-mail testing tool for developers
-    digest: 5c800571339882c4e5b8caef78980fa273c9e25a699a5dfd4d143138ced9f90e
-    home: http://iankent.uk/project/mailhog/
-    icon: https://raw.githubusercontent.com/mailhog/MailHog-UI/master/assets/images/hog.png
-    keywords:
-    - mailhog
-    - mail
-    - smtp
-    - email
-    - e-mail
-    - testing
-    maintainers:
-    - email: pratik@improeised.com
-      name: praitk
-    name: mailhog
-    sources:
-    - https://github.com/mailhog/MailHog
+    - https://github.com/codecentric/
     urls:
     - https://pratikbalar.github.io/myhelmrepo/mailhog-0.1.1.tgz
     version: 0.1.1
-  - apiVersion: v1
-    appVersion: v1.0.1
-    created: "2020-10-07T17:10:04.735842968+05:30"
-    description: An e-mail testing tool for developers
-    digest: 0345482d4c0eea5d5920ff435d8225cdcb651f6f91d0d495110795904ba51570
-    home: http://iankent.uk/project/mailhog/
-    icon: https://raw.githubusercontent.com/mailhog/MailHog-UI/master/assets/images/hog.png
-    keywords:
-    - mailhog
-    - mail
-    - smtp
-    - email
-    - e-mail
-    - testing
-    maintainers:
-    - email: pratik@improeised.com
-      name: praitk
-    name: mailhog
-    sources:
-    - https://github.com/mailhog/MailHog
-    urls:
-    - https://pratikbalar.github.io/myhelmrepo/mailhog-0.1.0.tgz
-    version: 0.1.0
-generated: "2020-10-07T17:10:04.717732397+05:30"
+generated: "2020-10-07T19:26:10.13410117+05:30"
