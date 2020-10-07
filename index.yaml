@@ -3,7 +3,7 @@ entries:
   asciinema-server:
   - apiVersion: v1
     appVersion: v1.0.1
-    created: "2020-10-07T19:26:10.142524391+05:30"
+    created: "2020-10-07T19:39:47.798004144+05:30"
     description: A terminal sharing tool for developers
     digest: d9acad91048adda73810f334bc9eb5c71c7df8ccb18cb7253a39461dd0aa651b
     maintainers:
@@ -18,7 +18,7 @@ entries:
   healthchecks:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-10-07T19:26:10.150236098+05:30"
+    created: "2020-10-07T19:39:47.804843654+05:30"
     dependencies:
     - condition: postgresql.enabled,global.postgresql.enabled
       name: postgresql
@@ -38,7 +38,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-10-07T19:26:10.146740979+05:30"
+    created: "2020-10-07T19:39:47.801321401+05:30"
     dependencies:
     - condition: postgresql.enabled,global.postgresql.enabled
       name: postgresql
@@ -59,9 +59,9 @@ entries:
   mailhog:
   - apiVersion: v1
     appVersion: v1.0.1
-    created: "2020-10-07T19:26:10.150813747+05:30"
+    created: "2020-10-07T19:39:47.805461976+05:30"
     description: An e-mail testing tool for developers
-    digest: 94460f7d6b7482494024ceb5303b917035afbc2e86694e0a250bd62fef75179f
+    digest: 1a87191da8133a4f17de0e52495b7cbfccc6f3131abd09d29b1ddecb2f3a5aff
     home: http://iankent.uk/project/mailhog/
     icon: https://raw.githubusercontent.com/mailhog/MailHog-UI/master/assets/images/hog.png
     keywords:
@@ -81,4 +81,4 @@ entries:
     urls:
     - https://pratikbalar.github.io/myhelmrepo/mailhog-0.1.1.tgz
     version: 0.1.1
-generated: "2020-10-07T19:26:10.13410117+05:30"
+generated: "2020-10-07T19:39:47.790025825+05:30"
