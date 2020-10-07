@@ -3,9 +3,9 @@ entries:
   asciinema-server:
   - apiVersion: v1
     appVersion: v1.0.1
-    created: "2020-10-07T19:56:24.618643405+05:30"
+    created: "2020-10-07T20:33:58.618643997+05:30"
     description: A terminal sharing tool for developers
-    digest: d9acad91048adda73810f334bc9eb5c71c7df8ccb18cb7253a39461dd0aa651b
+    digest: adbf65c8c8da0407722a88e74f13b7eb11d33b54a67ced61876e03d007207cb4
     maintainers:
     - email: pratik@improeised.com
       name: praitk
@@ -13,19 +13,19 @@ entries:
     sources:
     - https://github.com/asciinema/asciinema-server
     urls:
-    - https://pratikbalar.github.io/myhelmrepo/asciinema-server-0.1.6.tgz
-    version: 0.1.6
+    - https://pratikbalar.github.io/myhelmrepo/asciinema-server-1.0.1.tgz
+    version: 1.0.1
   healthchecks:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-10-07T19:56:24.625514434+05:30"
+    created: "2020-10-07T20:33:58.623850643+05:30"
     dependencies:
     - condition: postgresql.enabled,global.postgresql.enabled
       name: postgresql
       repository: https://charts.bitnami.com/bitnami
       version: 9.1.1
     description: A Helm chart for Kubernetes
-    digest: 64ba42ceb1ee0b945068325782b94c8f88df77b88d85c796d1639506e8d61e55
+    digest: abb6311a7170265c667d745cac8ff699185bee8bdfe2570d49c068ac603b98f8
     maintainers:
     - email: pratik@improeised.com
       name: praitk
@@ -34,34 +34,14 @@ entries:
     - https://github.com/healthchecks/healthchecks
     type: application
     urls:
-    - https://pratikbalar.github.io/myhelmrepo/healthchecks-0.1.1.tgz
-    version: 0.1.1
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2020-10-07T19:56:24.622129347+05:30"
-    dependencies:
-    - condition: postgresql.enabled,global.postgresql.enabled
-      name: postgresql
-      repository: https://charts.bitnami.com/bitnami
-      version: 9.1.1
-    description: A Helm chart for Kubernetes
-    digest: 29edd22d63bd9a889f43d08f3920745c525ba65f16217acb2da9ee7ff1ff04d2
-    maintainers:
-    - email: pratik@improeised.com
-      name: praitk
-    name: healthchecks
-    sources:
-    - https://github.com/healthchecks/healthchecks
-    type: application
-    urls:
-    - https://pratikbalar.github.io/myhelmrepo/healthchecks-0.1.0.tgz
-    version: 0.1.0
+    - https://pratikbalar.github.io/myhelmrepo/healthchecks-1.0.1.tgz
+    version: 1.0.1
   mailhog:
   - apiVersion: v1
     appVersion: v1.0.1
-    created: "2020-10-07T19:56:24.626738328+05:30"
+    created: "2020-10-07T20:33:58.624753577+05:30"
     description: An e-mail testing tool for developers
-    digest: 17a2d1fd0b035b19d0ba6aa4904a392064a7dfeb080f0328eb40cc18d13176b0
+    digest: 57ffbb30991e7d4cc0d86037bf75fa86285bd680315331123bbcb3fe0379605f
     home: http://iankent.uk/project/mailhog/
     icon: https://raw.githubusercontent.com/mailhog/MailHog-UI/master/assets/images/hog.png
     keywords:
@@ -81,4 +61,4 @@ entries:
     urls:
     - https://pratikbalar.github.io/myhelmrepo/mailhog-1.0.1.tgz
     version: 1.0.1
-generated: "2020-10-07T19:56:24.609423003+05:30"
+generated: "2020-10-07T20:33:58.60936861+05:30"
