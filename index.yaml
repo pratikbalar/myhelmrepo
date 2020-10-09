@@ -3,7 +3,7 @@ entries:
   asciinema-server:
   - apiVersion: v1
     appVersion: v1.0.1
-    created: "2020-10-07T20:33:58.618643997+05:30"
+    created: "2020-10-09T13:53:02.214143664Z"
     description: A terminal sharing tool for developers
     digest: adbf65c8c8da0407722a88e74f13b7eb11d33b54a67ced61876e03d007207cb4
     maintainers:
@@ -18,14 +18,14 @@ entries:
   healthchecks:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-10-07T20:33:58.623850643+05:30"
+    created: "2020-10-09T13:53:02.241911722Z"
     dependencies:
     - condition: postgresql.enabled,global.postgresql.enabled
       name: postgresql
       repository: https://charts.bitnami.com/bitnami
       version: 9.1.1
     description: A Helm chart for Kubernetes
-    digest: abb6311a7170265c667d745cac8ff699185bee8bdfe2570d49c068ac603b98f8
+    digest: 2cc69bd8c779ea290ede2813129053f9f3f354b6803845abdf00e514391b5cc8
     maintainers:
     - email: pratik@improeised.com
       name: praitk
@@ -39,7 +39,7 @@ entries:
   mailhog:
   - apiVersion: v1
     appVersion: v1.0.1
-    created: "2020-10-07T20:33:58.624753577+05:30"
+    created: "2020-10-09T13:53:02.243457815Z"
     description: An e-mail testing tool for developers
     digest: 57ffbb30991e7d4cc0d86037bf75fa86285bd680315331123bbcb3fe0379605f
     home: http://iankent.uk/project/mailhog/
@@ -61,4 +61,4 @@ entries:
     urls:
     - https://pratikbalar.github.io/myhelmrepo/mailhog-1.0.1.tgz
     version: 1.0.1
-generated: "2020-10-07T20:33:58.60936861+05:30"
+generated: "2020-10-09T13:53:02.168791386Z"
