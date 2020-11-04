@@ -3,7 +3,7 @@ entries:
   asciinema-server:
   - apiVersion: v1
     appVersion: v1.0.1
-    created: "2020-10-10T07:26:54.934519094Z"
+    created: "2020-11-04T15:07:21.089179878+05:30"
     description: A terminal sharing tool for developers
     digest: adbf65c8c8da0407722a88e74f13b7eb11d33b54a67ced61876e03d007207cb4
     maintainers:
@@ -15,10 +15,22 @@ entries:
     urls:
     - https://pratikbalar.github.io/myhelmrepo/asciinema-server-1.0.1.tgz
     version: 1.0.1
+  erpnext:
+  - apiVersion: v2
+    appVersion: v12.12.1
+    created: "2020-11-04T15:07:21.089976468+05:30"
+    description: Kubernetes Helm Chart for the lastest stable ERPNext branch
+    digest: e8a7b6273e8e56845fb5a20584dc4a31ad6700f6d8ec5654fa0b2a114b46fc83
+    icon: https://raw.githubusercontent.com/frappe/design/master/logos/logo-2018/erpnext-logo-blue.svg
+    name: erpnext
+    type: application
+    urls:
+    - https://pratikbalar.github.io/myhelmrepo/erpnext-2.0.4.tgz
+    version: 2.0.4
   healthchecks:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-10-10T07:26:54.93879565Z"
+    created: "2020-11-04T15:07:21.093532446+05:30"
     dependencies:
     - condition: postgresql.enabled,global.postgresql.enabled
       name: postgresql
@@ -39,7 +51,7 @@ entries:
   mailhog:
   - apiVersion: v1
     appVersion: v1.0.1
-    created: "2020-10-10T07:26:54.939390455Z"
+    created: "2020-11-04T15:07:21.094397684+05:30"
     description: An e-mail testing tool for developers
     digest: 57ffbb30991e7d4cc0d86037bf75fa86285bd680315331123bbcb3fe0379605f
     home: http://iankent.uk/project/mailhog/
@@ -61,4 +73,4 @@ entries:
     urls:
     - https://pratikbalar.github.io/myhelmrepo/mailhog-1.0.1.tgz
     version: 1.0.1
-generated: "2020-10-10T07:26:54.925529313Z"
+generated: "2020-11-04T15:07:21.080721958+05:30"
