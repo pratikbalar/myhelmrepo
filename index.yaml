@@ -3,7 +3,7 @@ entries:
   asciinema-server:
   - apiVersion: v1
     appVersion: v1.0.1
-    created: "2021-01-27T12:01:35.841488854+05:30"
+    created: "2021-01-27T16:26:19.782590562+05:30"
     description: A terminal sharing tool for developers
     digest: adbf65c8c8da0407722a88e74f13b7eb11d33b54a67ced61876e03d007207cb4
     maintainers:
@@ -18,7 +18,27 @@ entries:
   dex:
   - apiVersion: v2
     appVersion: v2.27.0
-    created: "2021-01-27T12:01:35.842205931+05:30"
+    created: "2021-01-27T16:26:19.784131575+05:30"
+    description: OpenID Connect Identity (OIDC) and OAuth 2.0 Provider with Pluggable
+      Connectors
+    digest: 242d7c08e07a209b250161fd0231ad8e4a7fa60e5e635220b619bbfaad599baf
+    home: https://github.com/dexidp/dex
+    icon: https://raw.githubusercontent.com/dexidp/dex/master/Documentation/logos/dex-horizontal-color.png
+    keywords:
+    - authentication
+    - idp
+    - oidc
+    maintainers:
+    - email: gabibbo97@gmail.com
+      name: gabibbo97
+    name: dex
+    type: application
+    urls:
+    - https://pratikbalar.github.io/myhelmrepo/dex-4.0.4.tgz
+    version: 4.0.4
+  - apiVersion: v2
+    appVersion: v2.27.0
+    created: "2021-01-27T16:26:19.783478801+05:30"
     description: OpenID Connect Identity (OIDC) and OAuth 2.0 Provider with Pluggable
       Connectors
     digest: e09014b494619ec1470ef703d3af3d432ec2fa51f0f3369db3ea8070c6549f2b
@@ -39,7 +59,7 @@ entries:
   erpnext:
   - apiVersion: v2
     appVersion: v12.14.0
-    created: "2021-01-27T12:01:35.843636318+05:30"
+    created: "2021-01-27T16:26:19.786289535+05:30"
     description: Kubernetes Helm Chart for the lastest stable ERPNext branch
     digest: 64c57f683876d2bf6155b170f535869d529b9012471cacdc29477576c921dfb1
     icon: https://raw.githubusercontent.com/frappe/design/master/logos/logo-2018/erpnext-logo-blue.svg
@@ -50,7 +70,7 @@ entries:
     version: 2.0.6
   - apiVersion: v2
     appVersion: v12.12.1
-    created: "2021-01-27T12:01:35.842962205+05:30"
+    created: "2021-01-27T16:26:19.785210929+05:30"
     description: Kubernetes Helm Chart for the lastest stable ERPNext branch
     digest: e8a7b6273e8e56845fb5a20584dc4a31ad6700f6d8ec5654fa0b2a114b46fc83
     icon: https://raw.githubusercontent.com/frappe/design/master/logos/logo-2018/erpnext-logo-blue.svg
@@ -62,7 +82,7 @@ entries:
   healthchecks:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-01-27T12:01:35.851042641+05:30"
+    created: "2021-01-27T16:26:19.795920297+05:30"
     dependencies:
     - condition: postgresql.enabled,global.postgresql.enabled
       name: postgresql
@@ -82,7 +102,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-01-27T12:01:35.846817953+05:30"
+    created: "2021-01-27T16:26:19.790907631+05:30"
     dependencies:
     - condition: postgresql.enabled,global.postgresql.enabled
       name: postgresql
@@ -103,7 +123,7 @@ entries:
   mailhog:
   - apiVersion: v1
     appVersion: v1.0.1
-    created: "2021-01-27T12:01:35.851643037+05:30"
+    created: "2021-01-27T16:26:19.796776322+05:30"
     description: An e-mail testing tool for developers
     digest: 57ffbb30991e7d4cc0d86037bf75fa86285bd680315331123bbcb3fe0379605f
     home: http://iankent.uk/project/mailhog/
@@ -125,4 +145,4 @@ entries:
     urls:
     - https://pratikbalar.github.io/myhelmrepo/mailhog-1.0.1.tgz
     version: 1.0.1
-generated: "2021-01-27T12:01:35.833461693+05:30"
+generated: "2021-01-27T16:26:19.77437722+05:30"
