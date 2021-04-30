@@ -9,7 +9,7 @@ helm repo update
 
 ```
 
-## Current Chartss fixed this is singed
+## Current Chartss fixed this is singed asd as
 
 | No. | Chart Name | Version | helm installation |
 |-----|------------|---------|-------------------|
