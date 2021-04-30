@@ -9,7 +9,7 @@ helm repo update
 
 ```
 
-## Current Chartss
+## Current Chartss fixed
 
 | No. | Chart Name | Version | helm installation |
 |-----|------------|---------|-------------------|
